@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Little Pack</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+    <div class="cursor-glow"></div>
+
+    <div class="scroll-progress-wrap">
+        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <div class="bg-blobs">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+        <span class="blob blob-4"></span>
+    </div>
+
+    <header class="site-header glass">
+        <div class="container nav-wrap">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🐾</span>
+                <span class="logo-text">Our Little Pack</span>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-text reveal">
+                    <p class="eyebrow">WELCOME TO OUR DOG WEBSITE</p>
+                    <h1 class="hero-title">
+                        Meet the <span class="gradient-text">good boys</span> of our home
+                    </h1>
+                    <p class="hero-desc">
+                        This website is made to showcase our dogs and help people contact us
+                        if any of them ever get lost. Each dog has their own profile page.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#dogs" class="btn btn-primary magnetic">Meet the Dogs</a>
+                        <a href="gallery.html" class="btn btn-secondary magnetic">View Gallery</a>
+                    </div>
+
+                    <div class="mini-stats">
+                        <div class="stat-card glass reveal">
+                            <h3>3</h3>
+                            <p>Good Boys</p>
+                        </div>
+                        <div class="stat-card glass reveal">
+                            <h3>∞</h3>
+                            <p>Zoomies Daily</p>
+                        </div>
+                        <div class="stat-card glass reveal">
+                            <h3>100%</h3>
+                            <p>Family Babies</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="hero-image-frame floaty">
+                        <img src="assets/images/grouppic.jpeg" alt="Our Dogs">
+                        <div class="spark spark-1"></div>
+                        <div class="spark spark-2"></div>
+                        <div class="spark spark-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section intro-band reveal">
+            <div class="container">
+                <div class="info-banner glass">
+                    <h2>If you scanned a dog collar QR code</h2>
+                    <p>
+                        You may have found one of our dogs. Please visit the specific dog profile
+                        and contact us immediately using the details provided there.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="dogs">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">OUR STARS</p>
+                    <h2>Meet the 3 doggos</h2>
+                    <p>Each one has their own personality, story, and profile page.</p>
+                </div>
+
+                <div class="dog-grid">
+                    <article class="dog-card glass reveal hover-rise">
+                        <div class="dog-card-image">
+                            <img src="assets/images/popo_home.jpeg" alt="Dog 1">
+                            <span class="badge badge-safe">Safe at Home</span>
+                        </div>
+                        <div class="dog-card-content">
+                            <h3>Popo</h3>
+                            <p class="dog-meta">Shih Tzu / Cream / Good Boy</p>
+                            <p>
+                                A sweet and fluffy little gentleman who loves cuddles and snacks.
+                            </p>
+                            <a href="dogs/popo.html" class="btn btn-card magnetic">View Profile</a>
+                        </div>
+                    </article>
+
+                    <article class="dog-card glass reveal hover-rise">
+                        <div class="dog-card-image">
+                            <img src="assets/images/kobe_home.jpeg" alt="Dog 2">
+                            <span class="badge badge-safe">Safe at Home</span>
+                        </div>
+                        <div class="dog-card-content">
+                            <h3>Kobe</h3>
+                            <p class="dog-meta">Mini Schnauzer / Black-Brown-White / Loyal Boy</p>
+                            <p>
+                                Calm, classy, and observant, with a sweet old-soul charm.
+                            </p>
+                            <a href="dogs/kobe.html" class="btn btn-card magnetic">View Profile</a>
+                        </div>
+                    </article>
+
+                    <article class="dog-card glass reveal hover-rise">
+                        <div class="dog-card-image">
+                            <img src="assets/images/yong_home.jpeg" alt="Dog 3">
+                            <span class="badge badge-safe">Safe at Home</span>
+                        </div>
+                        <div class="dog-card-content">
+                            <h3>Megatron</h3>
+                            <p class="dog-meta">Dachshund-Chihuahua Mix / Black-Brown / Tiny Chaos</p>
+                            <p>
+                                Small in size, huge in personality, and always ready to steal the spotlight.
+                            </p>
+                            <a href="dogs/megatron.html" class="btn btn-card magnetic">View Profile</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section pastel-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHY THIS WEBSITE EXISTS</p>
+                    <h2>More than just cute photos</h2>
+                </div>
+
+                <div class="feature-grid">
+                    <div class="feature-card glass reveal hover-rise">
+                        <div class="feature-icon">📱</div>
+                        <h3>QR Collar Support</h3>
+                        <p>Each dog can have a QR code that links straight to their own profile page.</p>
+                    </div>
+
+                    <div class="feature-card glass reveal hover-rise">
+                        <div class="feature-icon">📍</div>
+                        <h3>Lost & Found Help</h3>
+                        <p>Important contact info is displayed clearly in case someone finds them.</p>
+                    </div>
+
+                    <div class="feature-card glass reveal hover-rise">
+                        <div class="feature-icon">💛</div>
+                        <h3>Personal Showcase</h3>
+                        <p>We get to show off our dogs, their story, and all their cutest moments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-box glass reveal">
+                    <h2>Want to see more of our little pack?</h2>
+                    <p>Browse their gallery or read more about them one by one.</p>
+                    <div class="hero-buttons center-buttons">
+                        <a href="gallery.html" class="btn btn-primary magnetic">Open Gallery</a>
+                        <a href="about.html" class="btn btn-secondary magnetic">Read About Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <h3>Our Little Pack</h3>
+                <p>
+                    A cute little website for our beloved dogs.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Dog Profiles</h4>
+                <ul class="footer-links">
+                    <li><a href="dogs/popo.html">Popo</a></li>
+                    <li><a href="dogs/kobe.html">Kobe</a></li>
+                    <li><a href="dogs/megatron.html">Megatron</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Our Little Pack. Made with love for our dogs. 🐶</p>
+        </div>
+    </footer>
+</body>
+</html>
